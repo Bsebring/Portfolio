@@ -1,0 +1,54 @@
+Two of Clubs. (value = 2).
+Two of Diamonds. (value = 2).
+Two of Hearts. (value = 2).
+Two of Spades. (value = 2).
+Three of Clubs. (value = 3).
+Three of Diamonds. (value = 3).
+Three of Hearts. (value = 3).
+Three of Spades. (value = 3).
+Four of Clubs. (value = 4).
+Four of Diamonds. (value = 4).
+Four of Hearts. (value = 4).
+Four of Spades. (value = 4).
+Five of Clubs. (value = 5).
+Five of Diamonds. (value = 5).
+Five of Hearts. (value = 5).
+Five of Spades. (value = 5).
+Six ofinvalid (value = 6).
+Invalid rank in: x-d Diamonds. (value = 6).
+Invalid Delimiter in: 6*h
+Invalid Delimiter in: x^y
+Seven of Clubs. (value = 7).
+Seven of Diamonds. (value = 7).
+Seven of Hearts. (value = 7).
+Seven of Spades. (value = 7).
+Eight of Clubs. (value = 8).
+Nine of Diamonds. (value = 9).
+Eight of Hearts. (value = 8).
+Nine of Spades. (value = 9).
+Ten of Clubs. (value = 10).
+Ten of Diamonds. (value = 10).
+Ten of Hearts. (value = 10).
+Ten of Spades. (value = 10).
+Jack of Clubs. (value = 10).
+Jack of Diamonds. (value = 10).
+Jack of Hearts. (value = 10).
+Jack of Spades. (value = 10).
+Queen of Clubs. (value = 10).
+Queen of Diamonds. (value = 10).
+King of Hearts. (value = 10).
+King of Spades. (value = 10).
+King of Hearts. (value = 10).
+Ace of Clubs. (value = 1 or value = 11).
+Ace of Diamonds. (value = 1 or value = 11).
+Ace of Hearts. (value = 1 or value = 11).
+Ace of Spades. (value = 1 or value = 11).
+Ace of Spades. (value = 1 or value = 11).
+Ace of Spades. (value = 1 or value = 11).
+-------Summary-------
+path : /Volumes/BEN SEBRING/Java 1/Programming assignments/Programming Assignment 5/deck-bad-1.txt
+Valid Cards: 45 Invalid Cards: 2 Total Cards: 47 Rank Errors: 0
+Delimiter Errors: 2 Suit Errors: 0 Multiple Errors: 0
+-------Extra-Credit-------
+Missing Six of ClubsMissing Six of SpadesMissing Six of HeartsMissing Eight of SpadesMissing Eight of DiamondsMissing Nine of ClubsMissing Nine of HeartsMissing Queen of SpadesMissing Queen of HeartsMissing King of ClubsMissing King of Diamonds
+Extra King Of Hearts Extra Ace Of Spades Extra Ace Of Spades 

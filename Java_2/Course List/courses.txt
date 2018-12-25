@@ -1,0 +1,6 @@
+CPSC141	Computer_Organization	3	D
+CPSC130	Computer_ProgrammingI	3	B
+Math140	Calculus_I	4	E
+CPSC232	Assembler_Languages	3	B
+CPSC131 Computer_ProgramingII 3 A
+Math141	Calculus_II	4	B
