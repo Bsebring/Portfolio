@@ -1,0 +1,125 @@
+N FIB.TXT
+N
+N This is a DEBUG script that will generate FIB.COM.
+N
+N FIB.COM
+A
+   dw   1
+   dw   0
+   dw   0,0,0,0
+   mov  cx,13
+   mov  ax,[102]
+   mov  dx,ax
+   add  dx,30
+   mov  ah,2
+   int  21
+   mov  dx,20
+   int  21
+   mov  dx,0
+   mov  ax,[102]
+   add  ax,[100]
+   mov  bx,[102]
+   mov  [100],bx
+   mov  [102],ax
+   cmp  ax,A
+   jge  14A
+   mov  dx,ax
+   add  dx,30
+   mov  ah,2
+   int  21
+   mov  dx,20
+   int  21
+   loop 0120
+   cmp  ax,64
+   jge  0173
+   mov  bx,A
+   div  bx
+   mov  bx,104
+   add  bx,6
+   mov  [bx],dx
+   mov  dx,ax
+   add  dx,30
+   mov  ah,2
+   int  21
+   mov  dx,[bx]
+   add  dx,30
+   int  21
+   mov  dx,20
+   int  21
+   loop 0120
+   cmp  ax,3E8
+   jge  1BF
+   mov  bx,A
+   div  bx
+   mov  bx,104
+   add  bx,6
+   mov  [bx],dx
+   sub  bx,2
+   mov  dx,0
+   push cx
+   mov  cx,A
+   div  cx
+   pop  cx
+   mov  [bx],dx
+   mov  dx,ax
+   add  dx,30
+   mov  ah,2
+   int  21
+   mov  dx,[bx]
+   add  dx,30
+   mov  ah,2
+   int  21
+   add  bx,2
+   mov  dx,[bx]
+   add  dx,30
+   int  21
+   mov  dx,20
+   int  21
+   sub  cx,1
+   cmp  cx,0
+   jne  0120
+   mov  bx,A
+   div  bx
+   mov  bx,104
+   add  bx,6
+   mov  [bx],dx
+   sub  bx,2
+   mov  dx,0
+   push cx
+   mov  cx,A
+   div  cx
+   pop  cx
+   mov  [bx],dx
+   sub  bx,2
+   mov  dx,0
+   push cx
+   mov  cx,A
+   div  cx
+   pop  cx
+   mov  [bx],dx
+   mov  dx,ax
+   add  dx,30
+   mov  ah,2
+   int  21
+   mov  dx,[bx]
+   add  dx,30
+   int  21
+   add  bx,2
+   mov  dx,[bx]
+   add  dx,30
+   int  21
+   add  bx,2
+   mov  dx,[bx]
+   add  dx,30
+   int  21
+   mov  dx,20
+   int  21
+   sub  cx,1
+   cmp  cx,0
+   jg   0120
+   int  20
+ 
+RCX
+11F
+W
+Q

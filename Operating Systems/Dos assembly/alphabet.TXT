@@ -1,0 +1,20 @@
+a 0100
+mov dl, 01
+mov bl, 00
+mov cx, 0009
+mov dh, dl
+add dl, bl
+add dl, 30
+mov ah, 02
+int 21
+mov bl, dh
+sub dl, 30
+loop 0107
+int 20
+
+rcx
+001B
+N Abet.com
+w
+q
+

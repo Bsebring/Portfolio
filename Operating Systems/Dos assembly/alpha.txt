@@ -1,0 +1,33 @@
+N ALPHA.TXT
+N
+N This will generate ALPHABET.COM
+N
+N ALPHA.COM
+A
+   mov  cx,19
+   mov  ah,2
+   mov  dx,7A
+   mov  bx,61
+   cmp  dx,bx
+   je   012D
+   mov  bx,65
+   cmp  dx,bx
+   je   012D
+   mov  bx,69
+   cmp  dx,bx
+   je   012D
+   mov  bx,6F
+   cmp  dx,bx
+   je   012D
+   mov  bx,75
+   cmp  dx,bx
+   je   012D
+   int  21
+   sub  dx,1
+   loop 0108
+   int 20
+
+RCX
+034
+W
+Q
